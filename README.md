@@ -6,4 +6,4 @@
 分別有
 1.單純傳輸文字
 2.傳輸圖片
-3.透過socket將clinet端的影像，同步到server端透過cv2.imshow顯示tj x96
+3.透過socket將clinet端的影像，同步到server端透過cv2.imshow顯示
