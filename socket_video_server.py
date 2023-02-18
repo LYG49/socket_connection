@@ -8,7 +8,7 @@ import struct
 ###################################################建立socket連線####################################################
 
 host='0.0.0.0'
-port=3360
+port=3306
 socket_video_server=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 socket_video_server.bind((host,port))
 socket_video_server.listen(10)
