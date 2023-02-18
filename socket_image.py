@@ -5,7 +5,7 @@ import socket
 ###################################################建立socket連線####################################################
 
 host = '120.117.40.244'
-port = 8082
+port = 3306
 address = (host,port)
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect(address)
